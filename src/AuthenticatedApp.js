@@ -10,10 +10,10 @@ function AuthenticatedApp() {
     console.log('hello world')
     return (
         <div className="conatainer flex">
-            <Navigation></Navigation>
+            <Navigation />
             <div className="middle__part">
-                <Header></Header>
-                <Filter></Filter>
+                <Header />
+                <Filter />
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/products" element={<Products/>}/>
