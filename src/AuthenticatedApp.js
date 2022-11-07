@@ -7,6 +7,7 @@ import Home from "./Pages/Home/Home";
 import Products from "./Pages/Products/Products";
 
 function AuthenticatedApp() {
+    console.log('hello world')
     return (
         <div className="conatainer flex">
             <Navigation></Navigation>
