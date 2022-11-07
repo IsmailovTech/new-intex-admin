@@ -8,7 +8,7 @@ import Products from "./Pages/Products/Products";
 
 function AuthenticatedApp() {
     console.log('hello world')
-    console.log('goodbye world')
+    console.log('hay world')
     return (
         <div className="conatainer flex">
             <Navigation />
